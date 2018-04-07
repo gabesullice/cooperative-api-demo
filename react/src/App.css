@@ -1,0 +1,55 @@
+body {
+  background-color: #efefef;
+  color: #222;
+}
+
+a:hover {
+  color: #0678BE;
+}
+
+.App {
+  text-align: center;
+}
+
+.main {
+  margin-top: 1em;
+  display: inline-block; text-align: left;
+  width: 90%;
+}
+
+.Article {
+  display: inline-block;
+  float: left;
+  width: 160px;
+  height: 300px;
+}
+
+.Article img {
+  width: 150px;
+  height: 150px;
+}
+
+.header {
+  color: #ddd;
+}
+
+.header .active {
+  color: #222;
+}
+
+.header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header a:hover {
+  color: #0678BE;
+}
+
+.header a:not(.active) {
+  border-bottom: 2px solid #ddd;
+}
+
+.header a:not(.active):hover {
+  border-color: #0678BE;
+}
