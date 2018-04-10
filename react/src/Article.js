@@ -51,9 +51,13 @@ class Article extends Component {
     const article = this.state.article;
     return (
       <div className="Article">
-        {article.image && <img src={article.image} alt=""/>}
-        <p className="title">Title: {article.title}</p>
-        <p className="title">ID: {article.id}</p>
+      {article.image && 
+        <div>
+          <img src={article.image} alt=""/>
+          <p className="title">Title: {article.title}</p>
+          <p className="title">ID: {article.id}</p>
+        </div>
+      }
       </div>
     );
   }
